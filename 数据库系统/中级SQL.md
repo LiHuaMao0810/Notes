@@ -2,7 +2,7 @@
 
 ## 1 Join
 
-![image-20250306102322087](C:/Users/22094/Desktop/%E7%AC%94%E8%AE%B0/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F/assets/image-20250306102322087.png)
+![image-20250306102322087](./assets/image-20250306102322087.png)
 
 | 类型                | 描述                                                         |
 | ------------------- | ------------------------------------------------------------ |
@@ -83,14 +83,14 @@ BLOB in MySQL
 
 * **`check (P)`**, where P is a predicate  
 
-![img](C:/Users/22094/Desktop/%E7%AC%94%E8%AE%B0/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F/assets/202303201018682.png) 
+![img](./assets/202303201018682.png) 
 
 * **`assertion`**
    `create assertion <assertion-name> check <predicate>;`  
 
   验证一个学生获得的总学分，要等于获得的每门课的学分的总和。
 
- ![img](C:/Users/22094/Desktop/%E7%AC%94%E8%AE%B0/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F/assets/202303201026200.png) 
+ ![img](./assets/202303201026200.png) 
 
 但使用 `assert` 后，每个元组的每次状态更新时都要进行检查，开销过大，数据库一般不支持。
 
@@ -104,7 +104,7 @@ BLOB in MySQL
 
 将一个table中某几列拿出来作为一个视图，类似于创建一个新的表格。
 
-![img](C:/Users/22094/Desktop/%E7%AC%94%E8%AE%B0/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F/assets/202303201029703.png) 
+![img](./assets/202303201029703.png) 
 
 view 可以隐掉一些细节，或者加上一些统计数据。可以把 view 当作表进行查询。
 

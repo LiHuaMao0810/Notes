@@ -28,7 +28,7 @@
 
 ### 1.3 Create Table Construct
 
-  ![img](C:/Users/22094/Desktop/%E7%AC%94%E8%AE%B0/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F/assets/202303131016449.png) 
+  ![img](./assets/202303131016449.png) 
 
 如果引用的表中有条目被删除，可能会破坏完整性约束条件。有下面的方法：  
 
@@ -115,7 +115,7 @@
 
   - Comparisons with null values return the special truth value: **unknown**.  
 
-     ![img](C:/Users/22094/Desktop/%E7%AC%94%E8%AE%B0/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F/assets/202303131118989.png) 
+     ![img](./assets/202303131118989.png) 
 
   - Result of select predicate is treated as false if it evaluates to unknown
 
@@ -123,7 +123,7 @@
 
 * **Aggregation Fuctions** 聚合函数
 
-  ![img](C:/Users/22094/Desktop/%E7%AC%94%E8%AE%B0/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F/assets/202303131120904.png) 
+  ![img](./assets/202303131120904.png) 
 
 ​	注意在 `select` 里出现的属性，除了统计函数以外，一定要是分组属性里出现过的。	
 
